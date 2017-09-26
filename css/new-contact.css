@@ -1,7 +1,8 @@
 body {
   font-size: 20px;
   color: #333333;
-  font-family: 'Lora', 'Times New Roman', serif; }
+  font-family: 'Lora', 'Times New Roman', serif; 
+  background: black }
 
 p {
   line-height: 1.5;
