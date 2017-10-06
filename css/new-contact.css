@@ -1,8 +1,8 @@
 body {
-  font-size: 20px;
-  color: #333333;
-  font-family: 'Lora', 'Times New Roman', serif; 
-  background: darkgray;
+  font-size: 40px;
+  color: white;
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  background: black;
 }
 
 p {
@@ -18,7 +18,7 @@ h4,
 h5,
 h6 {
   font-weight: 800;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
 a {
   color: #333333;
@@ -75,7 +75,7 @@ body {
   position: absolute;
   border-bottom: 1px solid #eeeeee;
   background-color: white;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   #mainNav .navbar-brand {
     font-weight: 800;
     color: #777777; }
@@ -174,7 +174,7 @@ header.masthead {
       line-height: 1.1;
       display: block;
       margin: 10px 0 0;
-      font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     @media only screen and (min-width: 768px) {
       header.masthead .page-heading h1,
       header.masthead .site-heading h1 {
@@ -189,12 +189,12 @@ header.masthead {
     font-size: 24px;
     font-weight: 600;
     margin: 10px 0 30px;
-    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   header.masthead .post-heading .meta {
     font-size: 20px;
     font-weight: 300;
     font-style: italic;
-    font-family: 'Lora', 'Times New Roman', serif; }
+    font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     header.masthead .post-heading .meta a {
       color: white; }
   @media only screen and (min-width: 768px) {
@@ -249,11 +249,11 @@ header.masthead {
     border-radius: 0;
     background: none;
     box-shadow: none !important;
-    font-family: 'Lora', 'Times New Roman', serif; }
+    font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
     .floating-label-form-group input::-webkit-input-placeholder,
     .floating-label-form-group textarea::-webkit-input-placeholder {
       color: #777777;
-      font-family: 'Lora', 'Times New Roman', serif; }
+      font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   .floating-label-form-group label {
     font-size: 0.85em;
     line-height: 1.764705882em;
@@ -299,50 +299,15 @@ footer {
   letter-spacing: 1px;
   text-transform: uppercase;
   border-radius: 0;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Lora', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
 
-.btn-primary {
-  color: white;
-  border-color: #0085A1;
-  background-color: #0085A1; }
-  .btn-primary.focus, .btn-primary:focus {
-    color: white;
-    border-color: #001c22;
-    background-color: #005b6e; }
-  .btn-primary:hover {
-    color: white;
-    border-color: #005264;
-    background-color: #005b6e; }
-  .btn-primary.active, .btn-primary:active,
-  .open > .btn-primary.dropdown-toggle {
-    color: white;
-    border-color: #005264;
-    background-color: #005b6e; }
-    .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
-    .open > .btn-primary.dropdown-toggle.focus,
-    .open > .btn-primary.dropdown-toggle:focus,
-    .open > .btn-primary.dropdown-toggle:hover {
-      color: white;
-      border-color: #001c22;
-      background-color: #003d4a; }
-  .btn-primary.active, .btn-primary:active,
-  .open > .btn-primary.dropdown-toggle {
-    background-image: none; }
-  .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover,
-  fieldset[disabled] .btn-primary.focus,
-  fieldset[disabled] .btn-primary:focus,
-  fieldset[disabled] .btn-primary:hover {
-    border-color: #0085A1;
-    background-color: #0085A1; }
-  .btn-primary .badge {
-    color: #0085A1;
-    background-color: white; }
-
-.btn-lg {
-  font-size: 16px;
-  padding: 25px 35px; }
-
-.btn-default:focus, .btn-default:hover {
-  color: white;
-  border: 1px solid #0085A1;
-  background-color: #0085A1; }
+  .btn-secondary {
+    color: #42DCA3;
+  border: 1px solid #42DCA3;
+  background-color: transparent; }
+  .btn-secondary:focus, .btn-secondary:hover {
+    color: black;
+    border: 1px solid #42DCA3;
+    outline: none;
+    background-color: #42DCA3; }
+  }
