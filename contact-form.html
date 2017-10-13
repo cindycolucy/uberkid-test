@@ -13,9 +13,6 @@
 	src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="./js/contactform.js"></script>
 
-
-
-</script>
 </head>
 <body>
 
@@ -23,15 +20,16 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-8 col-md-10 mx-auto">
+				<p class="return-home"><a href="http://uberkid.com/">Return to UberKid</a></p>
 				<p>Schedule a trip with UberKid</p>
 				<!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
 				<!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
 				<!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
-				<form name="sentMessage" id="contactForm" action="https://formspree.io/ckcolucy@gmail.com" method="POST" novalidate>
+				<form name="sentMessage" id="contactForm" action="https://formspree.io/margie@uberkid.com" method="POST" novalidate>
 					<div class="control-group">
 						<div class="form-group floating-label-form-group controls">
-							<label>Name</label>
-							<input type="text" class="form-control" placeholder="Name" id="name" name="name" required data-validation-required-message="Please enter your name.">
+							<label>Contact Name</label>
+							<input type="text" class="form-control" placeholder="Contact Name" id="name" name="name" required data-validation-required-message="Please enter your name.">
 							<p class="help-block text-danger"></p>
 						</div>
 					</div>
@@ -48,6 +46,27 @@
 							<input type="tel" class="form-control" placeholder="Phone Number" id="phone" name="phone" required data-validation-required-message="Please enter your phone number.">
 							<p class="help-block text-danger"></p>
 						</div>
+					<div class="control-group">
+						<div class="form-group floating-label-form-group controls">
+							<label>Trip Date</label>
+							<input type="text" class="form-control" placeholder="Trip Date (MM/DD/YYYY)" id="date" name="date" required data-validation-required-message="Please enter the trip date.">
+								<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div class="control-group">
+						<div class="form-group floating-label-form-group controls">
+							<label>Pickup Time</label>
+							<input type="text" class="form-control" placeholder="Pickup Time (include am or pm)" id="time" name="time" required data-validation-required-message="Please enter the pickup time.">
+								<p class="help-block text-danger"></p>
+						</div>
+					</div>
+					<div class="control-group">
+						<div class="form-group floating-label-form-group controls">
+							<label>Pickup Zip Code</label>
+							<input type="text" class="form-control" placeholder="Pickup Zip Code" id="zip" name="zip" required data-validation-required-message="Please enter the pickup time.">
+								<p class="help-block text-danger"></p>
+						</div>
+					</div>
 					</div>
 					<div class="control-group">
 						<div class="form-group floating-label-form-group controls">
@@ -67,11 +86,11 @@
 	</div>
 
 	
-<!-- /.container -->
+	<!-- /.container -->
 
-<script type="text/javascript"
-src="https://code.jquery.com/jquery-2.1.4.js"></script>
-<script type="text/javascript"
-src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script type="text/javascript"
+	src="https://code.jquery.com/jquery-2.1.4.js"></script>
+	<script type="text/javascript"
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 </html>
